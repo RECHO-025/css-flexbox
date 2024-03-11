@@ -1,0 +1,586 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.topbar{
+    background-color: black;
+  
+    display:block;
+   
+    }
+ul{
+    color: white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none; 
+}
+li{
+    display: inline-block;
+    padding:15px; }
+.nav{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;}
+    .logo{
+    display: block;
+    margin-left: 100px;}
+
+ 
+
+
+.menu li a{
+   display: inline-block;
+   padding: 15px 5px;
+   align-items: center;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 14px 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a:hover{color: #ff3500}
+select:hover{
+    color: #ff3500;
+    
+}
+
+option{
+    background-color: #ffff;
+    position:relative;
+    width: 100px;
+    height: 100px;
+   
+    
+    
+}
+ #blog{
+    font-size: 14px;
+    border-style: none;
+    text-align: center;
+   background-color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+#page{
+    font-size: 14px;
+  text-align: center;
+  background-color: #ffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: none;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Banner area*/
+.banner-area{
+    
+height: 600px;
+    background-size: 100% 100%;
+        padding: 20px;
+        position: relative;
+        background-image: url(images/banner.png.webp);
+    }
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:50px ;
+    margin-right: 70px;
+    margin-top: 70px;
+    align-items: center;
+}
+.dog-text{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    
+position: relative;
+justify-content: center}
+
+#right{
+    top: 100px;
+    right:100px;
+    height: 100%;
+}
+ 
+h3{
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 4px;
+    color: white;
+    font-weight: 200;
+}
+button{
+    border: 1px solid;
+    border-radius:30px;
+    color: #ff3500;
+    padding: 17px 50px;
+    margin-top: 50px;
+    margin-left: -20px;
+    margin-right: 20px;
+    font-size: 16px;
+    background-color:#ffff;
+    display: inline-block;
+
+}
+    button:hover{
+    background-color:#ff3500;
+    color: #ffff;
+      
+    }
+
+/* Service area*/
+
+.row-serv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.container-serv{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.section-services{
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+;}
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    padding: 70px 25px 65px 25px;
+}
+.service-area{
+    padding-bottom: 200px;
+    padding-top: 125px;
+}
+
+.pet1{
+    width: 160px;
+    height: 140px;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-image: url(images/service_icon_bg_1.png.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .card{
+    width:25%;
+   margin: 50px 25px;
+    text-align: center;
+    height: 500px;
+    border: 1px ridge #ffc5c2;
+    border-radius: 10px;
+    padding: 70px 25px 65px 25px;
+    border-radius: 10px;
+   
+
+}
+    .card:hover{
+        box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+        border: 1px solid transparent;
+    
+        
+    }
+    .pet-text{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 43px;
+        margin-bottom: 22px;
+    }
+.pet-area{
+   
+    padding-top: 73px;
+    padding-bottom: 24px;
+}
+.cat-img{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.cat-text{
+    display: block;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    text-align: center;
+}
+#abt{
+    border: 1px solid;
+    border-radius:30px;
+    color: #ffff;
+    padding: 20px 50px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: 50px;
+    font-size: 16px;
+    background-color:#ff3500;
+    display: inline-block;
+}
+/* adopt area*/
+
+.adopt-area{
+   width: 100%;
+    padding-bottom: 200px;
+    padding-top: 125px;
+}
+
+.adapt{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+     display: flex;
+     justify-content: center;
+    
+    }
+
+.adapt-us{
+   margin-left: auto;
+   margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.pets-1, .pets-2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+}
+
+.card-1{
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    border: 1px solid transparent;
+    margin: 50px 17px 22px;
+    padding: 20px;
+   
+
+}
+.petimg{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.col-text{
+ 
+    margin-top: 22px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+/* Slider*/
+.Slider{
+    padding-bottom: 200px;
+    padding-top: 220px;
+}
+.container-slide{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.row-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 16px 35px 0px rgba(0, 0, 2, 0.08);
+    border: 1px solid transparent;
+    height:400px;
+    margin-left:-15px;
+    margin-right:-15px;
+    padding: 50px;
+   }
+   .slide-img{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+
+   }
+   /*team*/
+   .Team{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+   }
+
+   .column{
+    position: relative;
+    width: 33.333%;
+    min-height: 1px;
+    padding-right: 25px;
+    padding-left: 55px;
+   
+   }
+
+   .team-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:0px;
+ 
+    } 
+   
+   .txt{
+    align-items: center;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px 40px 11px 40px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    background-color: white;
+    box-shadow: 0px 16px 35px 0px rgb(0 0 2 / 8%);
+   }
+ 
+.contact_anipat{
+    height: 600px;
+   background-position: center center;
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 160px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(images/contact_bg.png.webp);
+  
+}
+
+.contact{
+position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.btn1 {
+display:flex ;
+align-items:center;
+justify-content:center;
+
+}
+button{
+margin-left: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+
+/*foooter*/
+.footer .footer-top{
+    background-position: center center;
+    background: #f8f8f8;
+    position: relative;
+    padding-top: 130px;
+    padding-bottom: 110px;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 35px;
+    margin-left: 35px;
+  
+   
+}
+.col-footer{
+    position: relative;
+    width: 25%;
+      min-height: 1px;
+      padding-right: 50px;
+      padding-left:32px;
+}
+.footer-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+    position: relative;
+    
+}
+
+.address-line  li a h3{
+    display: list-item;
+    font-size: 16px;
+    font-weight: 400;
+    color : #7a7a7a;
+    padding: 17px 16px;
+    
+}
+.footer_logo {
+    font-size: 25px;
+    font-weight: 500;
+    color: #2e2e2e;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+    position: relative;
+    
+}
+
+.address_text{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 70px;
+}
+.bordered_1px{
+    border-top: 1px solid #9c9393;
+    padding-bottom: 30px;
+}
+
+@media (max-width:720px) {
+    .dog-banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .dog-img img{
+width:90%;
+    }
+    .petcard
+{
+    width:80%;
+}
+.t-text{
+    text-align: center;
+    margin-right: 0px;
+}
+.pt-txt, h3{
+    line-height: 35px;
+}
+
+.cat-img img{
+  
+    width:50%
+}
+.cat-area{
+    display: block;
+    text-align: center;
+}
+.cat{
+    display: flex;
+    flex-direction: column;
+}
+
+.adpt  {
+ display: block;
+   width: 100%;
+   
+}
+.adap {
+    flex-direction: column;
+    align-items: center;
+}
+   .container-slider{
+    width:80%;
+    display: block;
+    padding: initial;
+    height: 100%;
+   }     
+.slide img{
+    align-items: center;
+    width: 50%;
+}
+.row-slider.slider-1{
+    flex-direction: column;
+    padding: initial;
+    height: 100%;
+   }
+
+.Team.t-area {
+    align-items: center;
+}
+.t-area {
+    flex-direction: column;
+}
+.col-team{
+  width: 50%;
+}
+.col-team img{
+    width: 80%;
+  }
+
+  .t-text h3{
+    font-size: 20px;
+    line-height: 33px;
+}
+
+ .t-text p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+.anip{
+    background-size: cover;
+    padding: 110px 0;
+ height:500px;
+}
+.btn-1{
+    flex-direction: column;
+  
+}
+.btn1.btn-1 {
+    height: 50px;
+}
+
+.col-footer{
+width:100%;
+}
+/*.row_footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.foot_title, h3 {
+    font-size: 18px;
+    text-align: center;
+}
+.add-list {
+    text-align: center;
+}
+}
